@@ -2,25 +2,24 @@
 <html>
   <head>
     <title>Pixelate</title>
-    <!-- This gets us our fun 8-bit font from Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Press+Start+2P"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="style.css"/>
 
-    <!-- loads our own CSS file -->
     <link rel="stylesheet" href="/style.css" />
   </head>
   <body>
     <h1>Pixelate</h1>
     <div>
-      <button id="add-row">Add a row</button>
-      <select>
-        <!-- add options here! -->
+      <button id="add-row" type="button">Add a row</button>
+      <select id="colorSelector">
+        <option id="red" value="red">Red</option>
+        <option id="blue" value="blue">Blue</option>
+        <option id="white" value="white">White</option>
+        <option id="none" value="none">None</option>
       </select>
     </div>
-    <table></table>
+    <table>
+      
+    </table>
   </body>
-  <!-- loads our JavaScript file -->
-  <script type="text/javascript" src="/script.js"></script>
+  <script src="script.js"></script>
 </html>
